@@ -19,12 +19,15 @@ Accepts either a directory of `.txt` files or a single `.txt` file.
 (You'll have to locate the bin where the script is saved by pip to use the command line like this.)
 
 **For a directory of text files**
+
 `python3 essay_scorer.py path/to/essays/`
 
 *Bonus*
+
 `python3 essay_scorer.py path/to/essays/ >> output.csv`
 
 **For a single text file**
+
 `python3 essay_scorer.py path/to/essays/test.txt`
 
 ### Importing in a python script
@@ -128,19 +131,3 @@ The pickled data file in this version does not include the age_bracket or langua
  'spelling_perc',  # what percentage of words spelled correctly
  'ttr' # type token ratio ]
 ```
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
