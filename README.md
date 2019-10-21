@@ -78,6 +78,8 @@ GNU GPLv3 - see LICENSE file for details.2
 
 
 ## Note
+The library `enchant` is found by `pip install pyenchant`
+
 
 The pickled data file in this version does not include the age_bracket or language_id. The 49 features extracted are the following (in alphabetical order).
 ```
